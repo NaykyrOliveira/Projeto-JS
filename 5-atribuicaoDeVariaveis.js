@@ -5,8 +5,8 @@ const primeiroNome = "João ";
 const sobrenome = "String ";
 
 // console.log(nome + " " + sobrenome);
-console.log(nome, sobrenome);
-console.log(`Meu nome é ${nome} ${sobrenome}`);
+console.log(primeiroNome, sobrenome);
+console.log(`Meu nome é ${primeiroNome} ${sobrenome}`);
 
 nomeCompleto = primeiroNome + sobrenome;
 console.log(nomeCompleto);
