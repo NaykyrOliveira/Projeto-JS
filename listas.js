@@ -14,3 +14,7 @@ listaDeDestinos.push(`Brasília`); // adicionando item na lista depois dela ser 
 console.log("Destinos possíveis: ");
 // console.log(salvador, saoPaulo, rioDeJaneiro);
 console.log(listaDeDestinos);
+
+listaDeDestinos.splice(1,1); // remover itens da lista
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[1], listaDeDestinos[0]); // acessar elemento da lista
